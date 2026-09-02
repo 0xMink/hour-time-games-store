@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Hour Time Games</title>
+    <link>https://store.hourtimegames.com/shop/</link>
+    <description>Board and card games for families</description>
+    <item>
+      <g:id>keeper-chaos</g:id>
+      <g:title>Keeper Chaos</g:title>
+      <g:description>The zoo is in chaos! Junior Zookeepers compete to be the first player to tend to all of their animals in their habitats. A game of decision-making, chance, and fun.</g:description>
+      <g:link>https://store.hourtimegames.com/shop/keeper-chaos/</g:link>
+      <g:image_link>https://store.hourtimegames.com/assets/keeper-box.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>24.99 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hour Time Games</g:brand>
+      <g:gtin>198168105917</g:gtin>
+      <g:product_highlight>Ages 5+</g:product_highlight>
+      <g:product_highlight>2–5 players</g:product_highlight>
+      <g:product_highlight>15–20 minutes</g:product_highlight>
+      <g:product_highlight>No reading</g:product_highlight>
+    </item>
+    <item>
+      <g:id>cluck-cluck-moose</g:id>
+      <g:title>Cluck, Cluck, Moose!</g:title>
+      <g:description>Based on a beloved children’s party game, this is a portable card game kids can play anywhere. On the plane, on the boat, in the car. Fast and fun, easy to learn — from pre-school to middle school.</g:description>
+      <g:link>https://store.hourtimegames.com/shop/cluck-cluck-moose/</g:link>
+      <g:image_link>https://store.hourtimegames.com/assets/cluck-box.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hour Time Games</g:brand>
+      <g:gtin>198715894608</g:gtin>
+      <g:product_highlight>Ages 4–99</g:product_highlight>
+      <g:product_highlight>1–4 players</g:product_highlight>
+      <g:product_highlight>5–10 minutes</g:product_highlight>
+    </item>
+    <item>
+      <g:id>disarmory</g:id>
+      <g:title>DisArmory</g:title>
+      <g:description>Strategy meets sabotage: build your cache of legendary weapons while cunningly undermining your opponents’ arsenals.</g:description>
+      <g:link>https://store.hourtimegames.com/shop/disarmory/</g:link>
+      <g:image_link>https://store.hourtimegames.com/assets/disarmory-box.webp</g:image_link>
+      <g:availability>preorder</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Hour Time Games</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:availability_date>2026-12-08T00:00:00Z</g:availability_date>
+      <g:product_highlight>Ages 12–99</g:product_highlight>
+      <g:product_highlight>2–4 players</g:product_highlight>
+      <g:product_highlight>15–30 minutes</g:product_highlight>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1 @@
+import{o as e}from"./commerce.CZLZGkGq.js";var t=document.querySelector(`[data-analytics-item]`);if(t?.dataset.analyticsItem)try{e(JSON.parse(t.dataset.analyticsItem))}catch{}

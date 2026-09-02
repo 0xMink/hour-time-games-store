@@ -1,0 +1,70 @@
+/* Colorway D — colorway C plus gradient atmosphere. Identical tokens to C;
+   the only addition is soft directional gradients on ENVIRONMENT surfaces
+   (page, hero, section bands, the green strip). Cards, buttons and controls
+   stay flat: playful content, calm controls. All gradient endpoints are
+   contrast-validated; interpolated values sit between validated endpoints
+   by construction (worst pair 4.63, on a band that carries no green text). */
+
+html[data-colorway='d'] {
+  --paper: #f6dd90;
+  --paper-dark: #cde6f1;
+  --rust: #8c430d;
+}
+
+/* page: sunlight glow from the top, dot grain kept */
+html[data-colorway='d'] body {
+  background:
+    radial-gradient(rgba(43, 29, 16, 0.04) 1.1px, transparent 1.1px) 0 0 / 26px 26px,
+    linear-gradient(180deg, #fbedbc 0%, #f6dd90 420px),
+    var(--paper);
+}
+
+/* hero: sunlight gradient — value-only within the yellow family (designer
+   feedback: blue dissolving into yellow read as a muddled seam; the rule
+   site-wide is now "gradients move value, never hue" — blue lives in its
+   own bands, not blended into the sun) */
+html[data-colorway='d'] .hero {
+  background:
+    radial-gradient(circle at 85% 65%, rgba(228, 112, 37, 0.1), transparent 45%),
+    linear-gradient(180deg, #fbedbc 0%, #f6dd90 100%);
+}
+
+/* sky bands become sky: light at the top, deeper toward the ground line */
+html[data-colorway='d'] .story,
+html[data-colorway='d'] .k-flavor,
+html[data-colorway='d'] .c-goal-band {
+  background: linear-gradient(180deg, #d5eaf4 0%, #bcdeed 100%);
+}
+
+/* green strip: gentle top-light so the panel reads dimensional */
+html[data-colorway='d'] .play-grid {
+  background: linear-gradient(180deg, #387b3d 0%, #2b6230 100%);
+}
+
+/* kickers: white pills, sky pop on page heroes (same as C) */
+/* The section label is typography-only as of 2026-08-16 (see .kicker in
+   global.css — tier 3 of the chrome system). These rules existed to tint the
+   pill; with no pill they were painting a white/sky box behind the label,
+   which left the cream label on the green band at 1.17:1 — invisible. */
+html[data-colorway='d'] .kicker {
+  background: none;
+}
+
+
+
+/* single filled CTA (same as C) */
+html[data-colorway='d'] .nav-cta .btn-play {
+  background: var(--card);
+  color: var(--green);
+}
+
+html[data-colorway='d'] .nav-cta .btn-play:hover,
+html[data-colorway='d'] .nav-cta .btn-play:focus-visible {
+  background: var(--green);
+  color: #fff;
+}
+
+html[data-colorway='d'] .site-header {
+  background: #fbedbc; /* matches the page gradient's top so the sticky
+                          header blends with the sunlight instead of cutting it */
+}

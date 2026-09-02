@@ -1,0 +1,1 @@
+import{i as e,n as t,s as n,t as r}from"./badge.CYf1t4jU.js";t(r(e(n())));

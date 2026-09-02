@@ -1,0 +1,17 @@
+{
+  "name": "Hour Time Games",
+  "short_name": "Hour Time Games",
+  "description": "Family-owned board and card games for game night.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbedbc",
+  "theme_color": "#fbedbc",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon-new.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

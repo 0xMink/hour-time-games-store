@@ -1,0 +1,52 @@
+/* Colorway C — butter page with sky-blue section bands, white cards, and
+   the full accent range (orange, green, red, yellow). Structure, type and
+   layout are identical to the default; only colour tokens change.
+
+   All pairs re-validated >= 4.5:1:
+   ink on butter 14.5 · ink on sky 12.4 · ink-soft on butter 7.5 /
+   sky 6.4 · rust #8c430d on butter 6.4 / white 7.2 / sky 5.5 ·
+   green on butter 5.7 · ink on yellow 11.4 / orange 6.6. */
+
+html[data-colorway='c'] {
+  --paper: #f6dd90;       /* OFFICIAL brand butter (branding guide 2026-08-10,
+                             R246 G221 B144); ink 12.2 · ink-soft 6.3 · rust 5.4 · green 4.8 — all pass */
+  --paper-dark: #cde6f1;  /* sky bands = CCM brand sky #58acd2 + 70% white (exact tint — every blue on the site derives from her brand sheet) */
+  --rust: #8c430d;        /* darkened for the lighter grounds */
+}
+
+/* dot grain on butter, slightly softer than the cream original */
+html[data-colorway='c'] body {
+  background:
+    radial-gradient(rgba(43, 29, 16, 0.04) 1.1px, transparent 1.1px) 0 0 / 26px 26px,
+    var(--paper);
+}
+
+/* kickers: white pills read crisply on both butter and sky… */
+/* The section label is typography-only as of 2026-08-16 (see .kicker in
+   global.css — tier 3 of the chrome system). These rules existed to tint the
+   pill; with no pill they were painting a white/sky box behind the label,
+   which left the cream label on the green band at 1.17:1 — invisible. */
+html[data-colorway='c'] .kicker {
+  background: none;
+}
+
+/* …page-hero kickers get a sky pop instead (yellow-on-butter would vanish) */
+
+
+/* single filled CTA carried over from colorway B (conversion consensus):
+   header Play Online stays an outline button */
+html[data-colorway='c'] .nav-cta .btn-play {
+  background: var(--card);
+  color: var(--green);
+}
+
+html[data-colorway='c'] .nav-cta .btn-play:hover,
+html[data-colorway='c'] .nav-cta .btn-play:focus-visible {
+  background: var(--green);
+  color: #fff;
+}
+
+/* theme-color meta is baked; keep the page edge tidy on butter */
+html[data-colorway='c'] .site-header {
+  background: var(--paper);
+}
